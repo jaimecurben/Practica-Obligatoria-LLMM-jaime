@@ -1,0 +1,25 @@
+#cabecera{
+    background-attachment: fixed;
+    background-color: rgb(223, 218, 196);
+    width: auto;
+    height: 130px;
+}
+
+#logo{
+    width: 7%;
+    margin-left: 5%;
+    float: left;
+}
+#titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size:xxx-large;
+    margin-left: 15%;
+    margin-top: 2%;
+    float: left;
+}
+#inicio{
+    float: left;
+    width: 8%;
+    margin-left: 20%;
+    
+}
