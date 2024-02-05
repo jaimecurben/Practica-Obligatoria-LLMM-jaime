@@ -1,8 +1,10 @@
 #cabecera{
+    position: fixed;
     background-attachment: fixed;
     background-color: rgb(223, 218, 196);
     width: auto;
-    height: 130px;
+    height: 160px;
+    
 }
 
 #logo{
@@ -38,7 +40,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-#menuizquierda{
+#menuCentral{
     width: 20%;
     height: auto;
 }
@@ -47,12 +49,12 @@ ul, ol {
     list-style:none;
 }
 
-#menuizquierda > li {
+#menuCentral > li {
     float:left;
     
 }
 
-#menuizquierda li a {
+#menuCentral li a {
     background-color:#000;
     color:#fff;
     text-decoration:none;
@@ -60,33 +62,69 @@ ul, ol {
     display:block;
 }
 
-#menuizquierda li a:hover {
+#menuCentral li a:hover {
     background-color:#434343;
 }
 
-#menuizquierda li ul {
+#menuCentral li ul {
     display:none;
     position:absolute;
     min-width:140px;
 }
 
-#menuizquierda li:hover > ul {
+#menuCentral li:hover > ul {
     display:block;
+    position: relative;
 }
 
-#menuizquierda li ul li {
+#menuCentral li ul li {
     position:relative;
 }
 
-#menuizquierda li ul li ul {
+#menuCentral li ul li ul {
     right:-140px;
     top:0px;
 }
 #Competiciones{
     font-size: x-large;
-   
 }
 #Equipos{
-    font-size: x-large
+    font-size: x-large;
+}
+#Noticias{
+    font-size: x-large;
+}
+#Alta{
+    font-size: x-large;
+}
+#menuGeneral{
+    overflow: hidden;
+}
+#menuIzquierda{
+    margin-top: 160px;
+    float: left;
+    width: 20%;
+    background-color: red;
+}
+#menuCentral{
+    margin-top: 160px;
+    float: left;
+    width: 60%;
+    background-color: black;
+}
+#menuDerecha{
+    height: 500px;
+    margin-top: 160px;
+    float: left;
+    width: 20%;
+    background-color: green;
+}
+.equipos2{
+    z-index: 1;
+
 }
 
+ul{
+    float: left;
+    margin-left: 10%;
+}
