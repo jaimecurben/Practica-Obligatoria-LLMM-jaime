@@ -7,6 +7,26 @@
     
 }
 
+#menuIzquierda{
+    float: left;
+    width: auto;
+}
+#anuncio3{
+    width: auto;
+    float: left;
+}
+ #anuncio4{
+    width: 100%;
+    float: left;
+    clear: left;
+ }
+
+ #anuncio5{
+    width: 100%;
+    height: 580px;
+    float: left;
+    clear: left;
+ }
 #logo{
     width: 7%;
     margin-left: 5%;
@@ -103,13 +123,12 @@ ul, ol {
 #menuIzquierda{
     margin-top: 160px;
     float: left;
-    width: 17.5%;
-    background-color: red;
+    width: 19%;
 }
 #menuCentral{
     margin-top: 160px;
     float: left;
-    width: 65%;
+    width: 62%;
     background-color: black;
     
 }
@@ -117,8 +136,8 @@ ul, ol {
     height: 500px;
     margin-top: 160px;
     float: left;
-    width: 17.5%;
-    background-color: green;
+    width: 19%;
+    
 }
 .equipos2{
     z-index: 1;
@@ -132,4 +151,14 @@ ul{
 #menuDerecha{
     width: auto;
     float: right;
+}
+#anuncio1{
+    float: right;
+    width: 100%;
+  
+    
+}
+#anuncio2{
+    float: right;
+    clear: right;
 }
