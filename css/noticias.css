@@ -1,0 +1,106 @@
+#cabecera{
+    position: relative;
+}
+#noticiastitulo{
+    text-align: center;
+    font-size: xxx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-weight: 5000;
+    background-color: rgb(228, 144, 33);
+}
+hr{
+    border: solid 1px;
+}
+.title{
+    font-size: x-large;
+    margin-top: 2%;
+    background-color: azure;
+}
+#noticia1{
+  width: 33%;
+  margin-bottom: 10%;
+  float: left;
+  border-right: dotted 2px;
+ 
+}
+#noticia2{
+   
+    width: 33%;
+    float: left;
+    border-right: dotted 2px;
+}
+#noticia3{
+   
+    width: 33%;
+    float: right;
+}
+#rickyfoto{
+    width: 100%;
+}
+.noticiaparrafo{
+    font-size: x-large;
+    background-color: cornsilk;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#kobe{
+    width: 50%;
+    margin-left: 25%;
+}
+
+#luka{
+    margin-top: 0.65%;
+    font-size: x-large;
+    background-color: azure;
+}
+#lukafoto{
+    margin-left: 20%;
+    width: 55%;
+}
+#noticia1:hover{
+    transform: scale(1.1);
+}
+#noticia2:hover{
+    transform: scale(1.1);
+}
+#noticia3:hover{
+    transform: scale(1.1);
+}
+#videonoticias{
+    float: left;
+    clear: left;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+    height: 400px;
+}
+#videodiv{
+    width: 50%;
+}
+#pdfdiv{
+    width: 50%;
+ float: left;
+}
+#pdf{
+    width: 100%;
+    height: 400px;
+ margin-left: 20%;
+}
+#videonoticias:hover{
+    transform: scale(1.1);
+}
+#pdf:hover{
+    transform: scale(1.1);
+}
+#pie{
+    margin-top: 80%;
+}
+#boton{
+    margin-left: 35%;
+    width: 30%;
+    font-size: x-large;
+    
+}
+#boton:hover{
+    transform: scale(1.5);
+}

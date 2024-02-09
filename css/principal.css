@@ -12,7 +12,7 @@
     width: auto;
 }
 #anuncio3{
-    width: auto;
+    width: 100%;
     float: left;
 }
  #anuncio4{
@@ -47,6 +47,7 @@
 }
 #panel{
     background-color: darkcyan;
+   
 }
 
 * {
@@ -129,7 +130,7 @@ ul, ol {
     margin-top: 160px;
     float: left;
     width: 62%;
-    background-color: black;
+   background-color: black;
     
 }
 #menuDerecha{
@@ -161,4 +162,48 @@ ul{
 #anuncio2{
     float: right;
     clear: right;
+}
+
+#fbsa{
+    color: #fff;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+#fbsa:hover{
+    transform: rotate(0.5turn);
+}
+
+#parrafo1{
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+    
+}
+
+#anuncio{
+    margin-left: 5%;
+    margin-top: 20%;
+    width: 90%;
+}
+#pie{
+    background-color: #434343;
+    height: 100px;
+    color: #fff;
+    
+}
+#info{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+@keyframes spin{
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+#titulo:active{
+    animation: spin 1s linear;
 }

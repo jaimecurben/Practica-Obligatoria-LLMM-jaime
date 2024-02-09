@@ -1,0 +1,20 @@
+#cabecera{
+    position: relative;
+}
+
+#tituloform{
+    text-align: center;
+    font-size: xxx-large;
+    font-family:serif;
+}
+#form{
+background-color: rgb(236, 207, 128);
+    padding: 3%;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+label{
+    font-size: x-large;
+}
